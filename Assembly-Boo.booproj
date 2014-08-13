@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-Boo</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_LINUX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Other Assets\Custom\Utils\CopyCamera.boo" />
+     <Compile Include="Assets\Other Assets\Custom\Utils\FollowMouse2D.boo" />
+     <Compile Include="Assets\Other Assets\Custom\Utils\SmoothFollow2D.boo" />
+     <Compile Include="Assets\Scripts\Bark.boo" />
+     <Compile Include="Assets\Scripts\Character.boo" />
+     <Compile Include="Assets\Scripts\Door.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Aura.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Boss.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Fiery.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Gold.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Stealth.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Teleporter.boo" />
+     <Compile Include="Assets\Scripts\Enemies\Trapper.boo" />
+     <Compile Include="Assets\Scripts\FakeWall.boo" />
+     <Compile Include="Assets\Scripts\Fighter.boo" />
+     <Compile Include="Assets\Scripts\HUD.boo" />
+     <Compile Include="Assets\Scripts\HealthBarGUI.boo" />
+     <Compile Include="Assets\Scripts\HelperFunctions.boo" />
+     <Compile Include="Assets\Scripts\IDamageable.boo" />
+     <Compile Include="Assets\Scripts\IKillable.boo" />
+     <Compile Include="Assets\Scripts\IPickable.boo" />
+     <Compile Include="Assets\Scripts\InfoText.boo" />
+     <Compile Include="Assets\Scripts\Items\Artifacts\Artifact.boo" />
+     <Compile Include="Assets\Scripts\Items\Artifacts\BossKeyArtifact.boo" />
+     <Compile Include="Assets\Scripts\Items\Artifacts\CompassArtifact.boo" />
+     <Compile Include="Assets\Scripts\Items\Artifacts\MapArtifact.boo" />
+     <Compile Include="Assets\Scripts\Items\Artifacts\SwordArtifact.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\BonusItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\BurstAmountItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\DamageItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\FireSpeedItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\MaxHealthItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\MoveSpeedItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\ProjectileSpeedItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Bonus Items\RegenerationItem.boo" />
+     <Compile Include="Assets\Scripts\Items\Weapons\Rock.boo" />
+     <Compile Include="Assets\Scripts\Items\Weapons\Sword.boo" />
+     <Compile Include="Assets\Scripts\MapUI.boo" />
+     <Compile Include="Assets\Scripts\Player.boo" />
+     <Compile Include="Assets\Scripts\RandomBlock.boo" />
+     <Compile Include="Assets\Scripts\References.boo" />
+     <Compile Include="Assets\Scripts\Rooms\Labyrinth.boo" />
+     <Compile Include="Assets\Scripts\Rooms\Room.boo" />
+     <Compile Include="Assets\Scripts\Rooms\RoomManager.boo" />
+     <Compile Include="Assets\Scripts\Rooms\RoomSection.boo" />
+     <Compile Include="Assets\Scripts\Rotator.boo" />
+     <Compile Include="Assets\Scripts\Sprites\Explosion.boo" />
+     <Compile Include="Assets\Scripts\Sprites\Fire.boo" />
+     <Compile Include="Assets\Scripts\Stat.boo" />
+     <Compile Include="Assets\Scripts\Teleport.boo" />
+     <None Include="Assets\Standard Assets\Custom\AudioPlayer\Features.txt" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Texture-Unlit.shader" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Texture-UnlitAlpha.shader" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Color-Color.shader" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Color-Specular.shader" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\README.txt" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Color-Unlit.shader" />
+     <None Include="Assets\Resources\Fonts\Orbitron\SIL Open Font License.txt" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Color-SpecularEmissive.shader" />
+     <None Include="Assets\Standard Assets\HydrogenFramework\Hydrogen\Shaders\Texture-UnlitAlphaTinted.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2A18B6A3-E489-BCAB-263C-9D43F9C863B6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-Boo-firstpass.booproj">
+      <Project>{617F9197-B2C0-C60F-29CD-D2F5B57B8878}</Project>      <Name>Assembly-Boo-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

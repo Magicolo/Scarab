@@ -1,0 +1,18 @@
+Audio Player:
+-Easy to use interface in the Hierarchy window
+-Everything is static; nothing needs to be instantiated
+-Playing a sound is as simple as calling AudioPlayer.Play(sound)
+-Uses Unity's components
+-Multi-editing of sound settings
+-Play, Stop, Pause, Resume, Fade in and Fade out with curves, Random pitch, Random volume and Delay
+-Can stack any amount of sounds
+-Uses object pooling to reduce memory allocation impact
+-Real Time Parameter Control (RTPC) support with curves
+-Tempo sync events
+-Audio bus support
+-Includes a sampler that automatically generates missing notes on Awake()
+-Supports Unity's audio effects
+-Build random containers and sequences in the inspector
+-Can play a weighted random sound in a collection
+-Can play sequences with crossfades
+-Source code included

@@ -1,0 +1,7 @@
+Sounds:
+-Rock hits rock
+-Aura
+-Fire burn
+-Dropping fire
+-Death Grow
+-Player die

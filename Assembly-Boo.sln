@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Assembly-Boo", "Assembly-Boo.booproj", "{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEF4930-3CB7-768F-AA32-94DA5D8DCD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
